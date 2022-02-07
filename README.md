@@ -12,3 +12,12 @@ To start the frontend & backend use `npm start`.
 
 The frontend uses `create-react-app` as dev tool. All requests to `/api/*` are
 proxied to `http://localhost:3001/` which is the port the backend listens on.
+
+
+## Project structure
+
+Backend files are in api and Frontend files are in src. 
+
+---
+
+⭐️ From [feratovic](https://github.com/feratovic)
