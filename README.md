@@ -1,4 +1,6 @@
-![giphy](https://media0.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47hoo016mgpcebrbc8co4j2r84rfbf0h38an6lprvi&rid=giphy.gif&ct=s)
+<p align="center">
+  <img src="https://media0.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47hoo016mgpcebrbc8co4j2r84rfbf0h38an6lprvi&rid=giphy.gif&ct=s" alt="image"/>
+</p>
 
 # Full-Stack JavaScript Developer Code Challenge
 
