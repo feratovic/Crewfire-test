@@ -9,7 +9,7 @@ export default function Card({link, author, updated}) {
     const { grid } = useContext(PublicContext);
 
     return (
-        <div className={`relative group overflow-hidden ${!grid && ' mb-4 '}`}> 
+        <div className={`relative group overflow-hidden ${!grid && ' mb-4 '}`} data-testid="card-element"> 
             <CustomImage  grid={grid} link={link}/> 
             <a className="absolute top-0 left-0 w-full h-full
                             cursor-pointer duration-1000

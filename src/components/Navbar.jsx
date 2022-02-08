@@ -1,4 +1,4 @@
-import { useContext, useState } from "react";
+import { useContext } from "react";
 import { BiSearchAlt } from "react-icons/bi";
 import { CgProfile } from "react-icons/cg";
 import { PublicContext } from "../context/PublicContext";
@@ -18,6 +18,7 @@ export const SearchInput = ({value, handleChange, searchData }) => {
                 value={value}
                 onChange={e => handleChange(e.target.value)}
                 onKeyDown={handleKeyDown}
+                placeholder="Search by tags"
             />
             <SearchBtn 
                 className="bg-[#0A68DA] rounded-r-full p-[5px] w-[80px] hover:opacity-75" 
@@ -32,7 +33,8 @@ export const SearchBtn = ({className, searchData}) => (
         className={className}
         onClick={searchData}
         type="submit"
-        name="Search"
+        name="search"
+        title="search"
     >
         <BiSearchAlt 
             fontSize={26} 
